@@ -9,6 +9,8 @@ Experiment 2 focuses on the application of the NumPy Library. This experiment al
 
 ## ********************* Coding Process *********************
 For Problem 1, 
-> The "np.random.random((x,y))" function is used and stored to variable x to generate the 5x5 random element ndarray. 
+> The "np.random.random((x,y))" function is used and stored to variable x to generate the 5x5 random element ndarray.
+
 > Once the ndarray is generated and stored to "x", the next step is to get the MEAN and STANARD DEVIATION of the ndarray. That can be done by using the "x.mean()" and "x.std()" functions, which are then stored to y and z, respectively.
-> The final step is to 
+
+> The final step is to normalize the ndarray by using the formula = x - Mean / Standard Deviation. Coding-wise, that will be [(x-y)/z] and that will be stored as "normx".
