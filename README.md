@@ -13,4 +13,7 @@ The "np.random.random((x,y))" function is used and stored to variable x to gener
 
 Once the ndarray is generated and stored to "x", the next step is to get the MEAN and STANARD DEVIATION of the ndarray. That can be done by using the "x.mean()" and "x.std()" functions, which are then stored to y and z, respectively.
 
-The final step is to normalize the ndarray by using the formula = x - Mean / Standard Deviation. Coding-wise, that will be [(x-y)/z] and that will be stored as "normx".
+The final step is to normalize the ndarray by using the formula = x - Mean / Standard Deviation. Coding-wise, that will be [(x-y)/z] and that will be stored as "normx". 
+
+![image](https://github.com/user-attachments/assets/26a5f33c-4606-4aa0-9070-e8e93514a214)
+
